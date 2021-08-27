@@ -50,7 +50,7 @@ This app is based on `react.js`. It can manipulate text as follows:
 
 ## Visualisation of App
 
-[![project-description](project-description.png)]({project-description.mp4} "project-description")
+[![project-description](project-description.png)](/project-description.mp4 "project-description")
 
 ## Link of App
 
