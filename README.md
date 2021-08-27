@@ -50,7 +50,10 @@ This app is based on `react.js`. It can manipulate text as follows:
 
 ## Visualisation of App
 
-[![project-description](project-description.png)](/project-description.mp4 "project-description")
+<video width=100% height=100% controls>
+  <source src="project-description.mp4" type="video/mp4">
+</video>
+
 
 ## Link of App
 
