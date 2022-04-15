@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar(props) {
     return (
       <>
+      {/* Navbar using props for proper theme mode */}
         <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">{props.title}</Link>
@@ -11,6 +12,7 @@ export default function Navbar(props) {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              {/* Navbar elements */}
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <Link className="nav-link active" aria-current="page" to="/">Home</Link>
@@ -19,9 +21,10 @@ export default function Navbar(props) {
                   <Link className="nav-link active" aria-current="page" to="/about">About</Link>
                 </li>
               </ul>
+              {/* Theme selector */}
               <div className={`form-check form-switch mx-3 my-3 d-flex flex-row-reverse text-${props.mode==='light'?'dark':'light'}`}>
                 <input className="form-check-input mx-1" onClick={props.toggleMode} type="checkbox" id="flexSwitchCheckDefault"/>
-                <label className="form-check-label mx-1" htmlFor="flexSwitchCheckDefault">Enable Dark Mode</label>
+                <label className="form-check-label mx-1" htmlFor="flexSwitchCheckDefault">Change Theme Mode</label>
             </div>
             </div>
           </div>

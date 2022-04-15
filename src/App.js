@@ -11,18 +11,8 @@ import {
 } from "react-router-dom";
 
 function App() {
-  const [mode, setMode] = useState('light');  //  mode check
-  const [alert, setAlert] = useState(null);
-
-  const showAlert = (message)=>{
-    setAlert({
-      msg: message,
-    })
-    setTimeout(() => {
-      setAlert(null);
-    }, 1580);
-  }
-
+  // theme mode useState
+  const [mode, setMode] = useState('light');
   const toggleMode = ()=>{
     if (mode === 'light'){
       setMode('dark');
@@ -35,10 +25,23 @@ function App() {
       showAlert("Light Mode has been Enabled")
     }
   }
+
+  // Alert useState
+  const [alert, setAlert] = useState(null);
+  const showAlert = (message)=>{
+    setAlert({
+      msg: message,
+    })
+    setTimeout(() => {
+      setAlert(null);
+    }, 1580);
+  }
+
   return (
     <>
     <Router>
       <Navbar title = "Text Utils" mode={mode} toggleMode={toggleMode}/>
+      {/* passing alert into component */}
       <Alert alert={alert}/>
       <div className="container my-3">
         <Switch>
