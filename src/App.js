@@ -1,14 +1,13 @@
+import React from "react";
+
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import About from './components/About';
 import { useState } from 'react';
 import Alert from './components/Alert';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   // theme mode useState
@@ -40,19 +39,18 @@ function App() {
   return (
     <>
     <Router>
+      {/* using react router */}
+      <React.Fragment>
       <Navbar title = "Text Utils" mode={mode} toggleMode={toggleMode}/>
       {/* passing alert into component */}
       <Alert alert={alert}/>
       <div className="container my-3">
-        <Switch>
-          <Route exact path="/about">
-            <About mode={mode}/>
-          </Route>
-          <Route exact path="/">
-            <TextForm showAlert={showAlert} heading = "Enter your Text here!" mode={mode}/>
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path='/about' element={<About mode={mode} />}  />
+          <Route path='/' element={<TextForm showAlert={showAlert} heading = "Enter your Text here!" mode={mode} />} />
+        </Routes>
       </div>
+      </React.Fragment>
     </Router>
     </>
   );
