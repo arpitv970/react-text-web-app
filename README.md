@@ -50,7 +50,7 @@ This app is based on `react.js`. It can manipulate text as follows:
 
 ## Visualisation of App
 
-![](/project-description.gif)
+https://user-images.githubusercontent.com/73063553/163670372-b1b71e0f-b15b-4851-bc75-8e1fd046221e.mp4
 
 ## Link of App
 
