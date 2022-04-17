@@ -1,3 +1,19 @@
+# Real-Time Deployment of react-web-app
+## [Text-Manipulator](https://text-manipulator.herokuapp.com/)
+
+## Visualisation of App
+
+https://user-images.githubusercontent.com/73063553/163670372-b1b71e0f-b15b-4851-bc75-8e1fd046221e.mp4
+
+# Project Description
+
+This app is based on `react.js`. It can manipulate text as follows:
+- Converts all texts into Upper-Case 
+- Converts all texts into Lower-Case 
+- Copies all texts to Clipboard 
+- Removes extra Spaces in between text
+- Clear whole text box
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -32,26 +48,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-# Project Description
-
-This app is based on `react.js`. It can manipulate text as follows:
-- Converts all texts into Upper-Case 
-- Converts all texts into Lower-Case 
-- Copies all texts to Clipboard 
-- Removes extra Spaces in between text
-- Clear whole text box
-
-## Visualisation of App
-
-https://user-images.githubusercontent.com/73063553/163670372-b1b71e0f-b15b-4851-bc75-8e1fd046221e.mp4
-
-## Link of App
-
-[Text-Manipulator](https://text-manipulator.herokuapp.com/)
