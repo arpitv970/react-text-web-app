@@ -1,20 +1,20 @@
-# Real-Time Deployment of react-web-app
+# Real-Time Deployment of react-web-app 🌐
 ## [Text-Manipulator](https://text-manipulator.herokuapp.com/)
 
-## Visualisation of App
+# Visualisation of App 💻
 
 https://user-images.githubusercontent.com/73063553/163670372-b1b71e0f-b15b-4851-bc75-8e1fd046221e.mp4
 
-# Project Description
+# Project Description 🗒️
 
-This app is based on `react.js`. It can manipulate text as follows:
+This app is based on `React.js`. It can manipulate text as follows:
 - Converts all texts into Upper-Case 
 - Converts all texts into Lower-Case 
 - Copies all texts to Clipboard 
 - Removes extra Spaces in between text
 - Clear whole text box
 
-# Getting Started with Create React App
+# Getting Started with Create React App ⚛️
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
