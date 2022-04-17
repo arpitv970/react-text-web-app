@@ -42,6 +42,7 @@ export default function TextForm(props) {
         props.showAlert("Cleared Text Area");
     }
 
+    // this is to target all values in real-time for preview it at the end
     const handleOnChange = (event)=>{
         setText(event.target.value);
     }
