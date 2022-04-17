@@ -6,6 +6,7 @@ export default function About(props) {
       className="container"
       style={{ color: props.mode === "light" ? "#101112" : "white" }} // styling accoriding to theme mode
     >
+      {/* NOTE: This section is temporary, just to demonstrate react-router functionality */}
       <h1>About Us</h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
