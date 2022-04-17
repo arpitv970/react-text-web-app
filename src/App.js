@@ -46,8 +46,10 @@ function App() {
       <Alert alert={alert}/>
       <div className="container my-3">
         <Routes>
-          <Route path='/about' element={<About mode={mode} />}  />
           <Route path='/' element={<TextForm showAlert={showAlert} heading = "Enter your Text here!" mode={mode} />} />
+          
+          {/* About page is only added to demonstrate react-routing */}
+          <Route path='/about' element={<About mode={mode} />}  />
         </Routes>
       </div>
       </React.Fragment>
