@@ -7,12 +7,13 @@ https://user-images.githubusercontent.com/73063553/163670372-b1b71e0f-b15b-4851-
 
 # Project Description 🗒️
 
-This app is based on `React.js`. It can manipulate text as follows:
-- Converts all texts into Upper-Case 
-- Converts all texts into Lower-Case 
-- Copies all texts to Clipboard 
-- Removes extra Spaces in between text
-- Clear whole text box
+This app is created using [Bootstrap](https://getbootstrap.com/) & [React.js](https://reactjs.org/)
+- Responsive components using [Bootstrap 5](https://getbootstrap.com/)
+- Converts all texts into ***UPPER-CASE*** 
+- Converts all texts into ***lower-case*** 
+- Copies all texts to ***Clipboard*** 
+- ***Removes extra Spaces*** in between text
+- ***Clear-All*** text from whole text box
 
 # Getting Started with Create React App ⚛️
 
